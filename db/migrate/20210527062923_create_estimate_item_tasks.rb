@@ -1,0 +1,6 @@
+class CreateEstimateItemTasks < ActiveRecord::Migration[5.2]
+  def change
+    create_table :estimate_item_tasks do |t|
+    end
+  end
+end
